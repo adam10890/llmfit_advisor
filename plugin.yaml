@@ -1,0 +1,12 @@
+name: llmfit_advisor
+title: "LLMFit Advisor — Hardware-Aware Model Management"
+version: "0.4.0"
+description: >
+  Detects hardware, recommends optimal GGUF models for llama.cpp,
+  reports external LMM fleet fit guidance, and provides
+  the agent with self-awareness of its own inference capabilities.
+settings_sections:
+  - developer
+author: "frantz"
+per_project_config: false
+per_agent_config: false

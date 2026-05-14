@@ -1,0 +1,23 @@
+# Local GGUF storage inside Agent Zero is disabled.
+models_dir: ""
+
+# llama.cpp server is managed by the external LMM fleet.
+llama_server_bin: ""
+
+# llmfit binary path
+llmfit_bin: /usr/local/bin/llmfit
+
+# GPU memory override (auto-detected if empty)
+# Set explicitly if nvidia-smi doesn't work inside container
+gpu_memory_override: ""
+
+# Safety limits
+max_vram_usage_pct: 85
+max_concurrent_models: 1
+
+# HuggingFace token for downloading gated models (optional)
+hf_token: ""
+
+# Preferred use cases for recommendations
+# Valid: general, coding, reasoning, chat, multimodal, embedding
+default_use_case: general
