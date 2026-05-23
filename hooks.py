@@ -14,7 +14,7 @@ import threading
 log = logging.getLogger("llmfit_advisor.hooks")
 
 
-def install():
+def install(**kwargs):
     """Called by Agent Zero after plugin installation.
 
     v1.10+ awaits preload hooks serially — any blocking I/O deadlocks the
